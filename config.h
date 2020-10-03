@@ -13,12 +13,12 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "Cascadia Code:size=11", "JoyPixels:pixelsize=12:antialias=true:autohint=true"  };
 static char dmenufont[]             = "Cascadia Code:size=11";
-static char normbgcolor[]           = "#222222";
-static char normbordercolor[]       = "#444444";
-static char normfgcolor[]           = "#bbbbbb";
-static char selfgcolor[]            = "#eeeeee";
-static char selbordercolor[]        = "#770000";
-static char selbgcolor[]            = "#005577";
+static char normbgcolor[]           = "#282828";
+static char normbordercolor[]       = "#ebdbb2";
+static char normfgcolor[]           = "#ebdbb2";
+static char selfgcolor[]            = "#282828";
+static char selbordercolor[]        = "#fb4934";
+static char selbgcolor[]            = "#ebdbb2";
 static char *colors[][3] = {
        /*               fg           bg           border   */
        [SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
